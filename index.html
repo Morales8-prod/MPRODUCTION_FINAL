@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MProduction</title>
+
+    <link rel="stylesheet" href="./CSS's/normalize.css">
+    
+    <link rel="stylesheet" href="./CSS's/style2.css">
+   
+</head>
+<body>
+<!-- MENU -->
+
+<header>
+    <div class="cabecera1">
+        <b id="slogan">
+         VISUALIZA LO QUE IMAGINAS
+        </b>
+    </div>
+    
+    <div id="menu">
+       
+        <img id="logo" src="./MULTIMEDIA/Logo mp (1).png">
+        
+        
+        <label  for="input" class="burger">
+        <img class="hamburguesa" src="./icons/hamburguesa.svg" alt="">
+       
+         </label> 
+        
+        <input type="checkbox" id="input">
+            
+        
+          
+        <ul class="navegacion" >
+            <li><a href="./index.html" id="pagina">INICIO</a></li> 
+             <li><a href="./Portfolio.html">PORTFOLIO</a></li>
+             <li><a href="./quiensomos.html">QUIEN SOMOS</a></li>
+         
+             </ul>
+        
+
+        
+            
+    </div>
+    <hr>
+</header>
+<main>
+<!-- H1 IMPORTANTE -->
+
+  <div class = bloqueone>
+    <h1 class = informacion>
+        <span class="negro">
+            EDITOR, 
+        </span>
+        <span class="naranja">
+            VIDEOGRAFÍA, 
+        </span>
+        <br class="salto">
+        <span class="negro" >
+            FOTOGRAFÍA, 
+        </span>
+        <br id="saltopant">
+        <span class="naranja">
+            DISEÑO GRÁFICO Y
+        </span>
+        <br class="salto">
+        <SPAN class="negro" >
+            DISEÑO <span class="negroauto"> 3D</span>
+        </SPAN>
+    </h1>
+</div>
+<!-- Slider -->
+<div id="slider">
+    <div class="slides">
+      <div class="slider">
+        <div class="legend"></div>
+        <div class="content">
+         
+        </div>
+        <div class="image">
+          <img src="./MULTIMEDIA/LAVUELTA/LAVUELTA_-4.jpg">
+        </div>
+      </div>
+      <div class="slider">
+        <div class="legend"></div>
+        <div class="content">
+         
+        </div>
+        <div class="image">
+          <img src="./MULTIMEDIA/LAVUELTA/LAVUELTA_.jpg">
+        </div>
+      </div>
+      <div class="slider">
+        <div class="legend"></div>
+        <div class="content">
+         
+        </div>
+        <div class="image">
+          <img src="./MULTIMEDIA/LAVUELTA/LAVUELTA_-8.jpg">
+        </div>
+      </div>
+      <div class="slider">
+        <div class="legend"></div>
+        <div class="content">
+         
+        </div>
+        <div class="image">
+          <img src="./MULTIMEDIA/LAVUELTA/LAVUELTA_-10.jpg">
+        </div>
+      </div>
+    </div>
+    <div class="switch">
+      <ul>
+        <li>
+          <div class="on"></div>
+        </li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- INFO -->
+<section class="bloqueII">
+  <p class="tipo">Fotografía deportiva.</p>
+  <p class="cita">-LA VUELTA 22'-</p>
+  <P> <span class="negroauto">M</span>Production</P>
+</section>
+
+<!-- VIDEO -->
+<section class="bloqueIII" >
+  <video src="./MULTIMEDIA/videos/BATIDORA FINAL.mp4" controls poster="./MULTIMEDIA/Batidora/_.jpg"></video>
+
+  <p class="tipoII">Diseño 3D y video de presentación.</p>
+  <p class="citaII">-CALDERERÍA LANDALUZ-</p>
+</section>
+
+<!-- GALERÍA -->
+
+  <Section class="galeria">
+    <div class="galeria_container">
+      <div class="galeria__items"><img loading="lazy" src="./MULTIMEDIA/LAVUELTA/LAVUELTA_-10.jpg" alt="" class="galeria__imgI"></div>
+      <div class="galeria__items"><img loading="lazy" src="./MULTIMEDIA/LAVUELTA/web_lavuelta/_-2.jpg" alt="" class="galeria__img"></div>
+      <div class="galeria__items"><img loading="lazy" src="./MULTIMEDIA/LAVUELTA/web_lavuelta/_-4.jpg" alt="" class="galeria__img"></div>
+      <div class="galeria__items"><img src="./MULTIMEDIA/WEB/1.jpg" alt="" class="galeria__imgIV"></div>
+      <div class="galeria__items"><img src="./MULTIMEDIA/WEB/Mengibar FS_-37.jpg" alt="" class="galeria__imgV"></div>
+      <div class="galeria__items"><img loading="lazy" src="./MULTIMEDIA/WEB/_-2.jpg" alt="" class="galeria__img"></div>
+      <div class="galeria__items"><img loading="lazy" src="./MULTIMEDIA/WEB/3.jpg" alt="" class="galeria__img"></div>
+      <div class="galeria__items"><img loading="lazy" src="./MULTIMEDIA/WEB/4.jpg" alt="" class="galeria__img"></div>
+      <div class="galeria__items"><img loading="lazy" src="./MULTIMEDIA/WEB/5.jpg" alt="" class="galeria__img"></div>
+  
+    </div>
+  </Section>
+
+  <!-- FORMULARIO -->
+  <section class="formulario">
+    <p class="parrafoformulario">Ponte en contacto</p>
+    <div class="divformulario">
+    <label class="labelform" for="input">Nombre*</label>
+    <input class="inputform" type="text" name="Nombre" value placeholder = "Ingresa tu nombre" required aria-required="true" maxlength="100">
+  </div>
+  <div class="divformulario">
+    <label class="labelform" for="input">Email*</label>
+    <input class="inputform" type="text" name="email" value placeholder = "Ingresa tu email" required aria-required="true" maxlength="250" pattern="^.+@.+\.[a-zA-Z]{2,63}$">
+  </div>
+  <div class="divformulario">
+    <label class="labelform" for="input">Asunto</label>
+    <input class="inputform" type="text" name="Asunto" value placeholder = "Escribe el asunto"  aria-required="false">
+  </div>
+  <div class="divformulario">
+    <label class="labelform" for="textarea">Mensaje</label>
+    <textarea name="mensaje" id="textarea"  value placeholder = "Escribe tu mensaje aquí..." aria-required="false"></textarea>
+  </div>
+
+  <button aria-disabled="false"> <span>Enviar</span></button>
+
+
+  </section>
+
+  <footer>
+    <a href="mailto:morales8auv@gmail.com">morales8auv@gmail.com</a>
+    <a href="https://instagram.com/__mproduction?igshid=YmMyMTA2M2Y=" target="_blank"><img src="./icons/instagram (1).png" alt=""></a>
+    <p>©2022 por Mproduction.</p>
+  </footer>
+
+
+  
+
+</main>
+
+
+
+</body>
+</html>
+
