@@ -683,6 +683,23 @@ grid-row-start: span 2;
   flex-direction: column;
   
 }
+.divformulario.ok input {
+  border: 0.1px solid;
+  border-color: #08ffc8;
+}
+.divformulario.falla input {
+  border: 0.1px solid;
+  border-color: #fe5f55;
+}
+.divformulario p {
+  visibility: hidden;
+  text-align: right;
+}
+
+.divformulario.falla p {
+  visibility: visible;
+  color:#e74c3c;
+}
 
 .labelform {
   margin-top: 5%;
@@ -812,7 +829,7 @@ footer p{
   border: #000 1px solid;
   border-radius: 50pt;
   overflow: hidden;
-  background-image: url(./../MULTIMEDIA/LAVUELTA/web_lavuelta/_-2.jpg);
+  background-image: url(./../MULTIMEDIA/LAVUELTA/web_lavuelta/2.jpg);
   background-position-y: center;
   background-size: 160%;
 }
@@ -1189,7 +1206,7 @@ footer p {
   border: #000 1px solid;
   border-radius: 50pt;
   overflow: hidden;
-  background-image: url(./../MULTIMEDIA/LAVUELTA/web_lavuelta/_-2.jpg);
+  background-image: url(./../MULTIMEDIA/LAVUELTA/web_lavuelta/2.jpg);
   background-position-y: center;
 }
 
