@@ -1,54 +1,7 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MProduction</title>
-
-    <link rel="stylesheet" href="./CSS's/normalize.css">
-    
-    <link rel="stylesheet" href="./CSS's/style2.css">
-   
-</head>
-<body>
-<!-- MENU -->
-
-<header>
-    <div class="cabecera1">
-        <b id="slogan">
-         VISUALIZA LO QUE IMAGINAS
-        </b>
-    </div>
-    
-    <div id="menu">
-       
-        <img id="logo" src="./MULTIMEDIA/Logo mp (1).png">
-        
-        
-        <label  for="input" class="burger">
-        <img class="hamburguesa" src="./icons/hamburguesa.svg" alt="">
-       
-         </label> 
-        
-        <input type="checkbox" id="input">
-            
-        
-          
-        <ul class="navegacion" >
-            <li><a href="./index.html" id="pagina">INICIO</a></li> 
-             <li><a href="./Portfolio.html">PORTFOLIO</a></li>
-             <li><a href="./quiensomos.html">QUIEN SOMOS</a></li>
-         
-             </ul>
-        
-
-        
-            
-    </div>
-    <hr>
-
-</header>
+<?php
+    require 'includes/funciones.php';
+    incluirTemplate('header');
+?>
 <main>
 <!-- H1 IMPORTANTE -->
 
@@ -83,7 +36,7 @@
          
         </div>
         <div class="image">
-          <img src="./MULTIMEDIA/LAVUELTA/LAVUELTA_-4.jpg">
+          <img src="/assets/MULTIMEDIA/LAVUELTA/LAVUELTA_-4.jpg">
         </div>
       </div>
       <div class="slider">
@@ -92,7 +45,7 @@
          
         </div>
         <div class="image">
-          <img src="./MULTIMEDIA/LAVUELTA/LAVUELTA_.jpg">
+          <img src="/assets/MULTIMEDIA/LAVUELTA/LAVUELTA_.jpg">
         </div>
       </div>
       <div class="slider">
@@ -101,7 +54,7 @@
          
         </div>
         <div class="image">
-          <img src="./MULTIMEDIA/LAVUELTA/LAVUELTA_-8.jpg">
+          <img src="/assets/MULTIMEDIA/LAVUELTA/LAVUELTA_-8.jpg">
         </div>
       </div>
       <div class="slider">
@@ -110,7 +63,7 @@
          
         </div>
         <div class="image">
-          <img src="./MULTIMEDIA/LAVUELTA/LAVUELTA_-10.jpg">
+          <img src="/assets/MULTIMEDIA/LAVUELTA/LAVUELTA_-10.jpg">
         </div>
       </div>
     </div>
@@ -135,7 +88,7 @@
 
 <!-- VIDEO -->
 <section class="bloqueIII" >
-  <video src="./MULTIMEDIA/videos/BATIDORA FINAL.mp4" controls poster="./MULTIMEDIA/Batidora/_.jpg"></video>
+  <video src="/assets/MULTIMEDIA/videos/BATIDORA FINAL.mp4" controls poster="/assets/MULTIMEDIA/Batidora/_.jpg"></video>
 
   <p class="tipoII">Diseño 3D y video de presentación.</p>
   <p class="citaII">-CALDERERÍA LANDALUZ-</p>
@@ -145,48 +98,48 @@
 
   <Section class="galeria">
     <div class="galeria_container">
-      <div class="galeria__items"><a data-fslightbox="gallery" href="./MULTIMEDIA/LAVUELTA/LAVUELTA_-10.jpg">
+      <div class="galeria__items"><a data-fslightbox="gallery" href="/assets/MULTIMEDIA/LAVUELTA/LAVUELTA_-10.jpg">
 
-        <img loading="lazy" src="./MULTIMEDIA/LAVUELTA/LAVUELTA10.jpg" alt="" class="galeria__imgI"> 
+        <img loading="lazy" src="/assets/MULTIMEDIA/LAVUELTA/LAVUELTA10.jpg" alt="" class="galeria__imgI"> 
       </a>
     </div>
       <div class="galeria__items">
-        <a data-fslightbox="gallery" href="./MULTIMEDIA/LAVUELTA/web_lavuelta/_-2.jpg">
-        <img loading="lazy" src="./MULTIMEDIA/LAVUELTA/web_lavuelta/2.jpg" alt="" class="galeria__img">
+        <a data-fslightbox="gallery" href="/assets/MULTIMEDIA/LAVUELTA/web_lavuelta/_-2.jpg">
+        <img loading="lazy" src="/assets/MULTIMEDIA/LAVUELTA/web_lavuelta/2.jpg" alt="" class="galeria__img">
       </a>
     </div>
       <div class="galeria__items">
-        <a data-fslightbox="gallery" href="./MULTIMEDIA/LAVUELTA/web_lavuelta/_-4.jpg">
-        <img loading="lazy" src="./MULTIMEDIA/LAVUELTA/web_lavuelta/4.jpg" alt="" class="galeria__img">
+        <a data-fslightbox="gallery" href="/assets/MULTIMEDIA/LAVUELTA/web_lavuelta/_-4.jpg">
+        <img loading="lazy" src="/assets/MULTIMEDIA/LAVUELTA/web_lavuelta/4.jpg" alt="" class="galeria__img">
       </a>
       </div>
-      <div class="galeria__items"> <a data-fslightbox="gallery" href="./MULTIMEDIA/WEB/1.jpg">
-        <img loading="lazy" src="./MULTIMEDIA/WEB/1.jpg" alt="" class="galeria__imgIV">
+      <div class="galeria__items"> <a data-fslightbox="gallery" href="/assets/MULTIMEDIA/WEB/1.jpg">
+        <img loading="lazy" src="/assets/MULTIMEDIA/WEB/1.jpg" alt="" class="galeria__imgIV">
         </a>
       </div>
       <div class="galeria__items">
-         <a data-fslightbox="gallery" href="./MULTIMEDIA/WEB/Mengibar FS_-37.jpg">
-        <img loading="lazy" src="./MULTIMEDIA/WEB/Mengibar FS_-37.jpg" alt="" class="galeria__imgV">
+         <a data-fslightbox="gallery" href="/assets/MULTIMEDIA/WEB/Mengibar FS_-37.jpg">
+        <img loading="lazy" src="/assets/MULTIMEDIA/WEB/Mengibar FS_-37.jpg" alt="" class="galeria__imgV">
         </a>
       </div>
       <div class="galeria__items">
-         <a data-fslightbox="gallery" href="./MULTIMEDIA/WEB/_-2.jpg">
-        <img loading="lazy" src="./MULTIMEDIA/WEB/_-2.jpg" alt="" class="galeria__img">
+         <a data-fslightbox="gallery" href="/assets/MULTIMEDIA/WEB/_-2.jpg">
+        <img loading="lazy" src="/assets/MULTIMEDIA/WEB/_-2.jpg" alt="" class="galeria__img">
       </a>
       </div>
       <div class="galeria__items">
-        <a data-fslightbox="gallery" href="./MULTIMEDIA/WEB/3.jpg">
-        <img loading="lazy" src="./MULTIMEDIA/WEB/3.jpg" alt="" class="galeria__img">
+        <a data-fslightbox="gallery" href="/assets/MULTIMEDIA/WEB/3.jpg">
+        <img loading="lazy" src="/assets/MULTIMEDIA/WEB/3.jpg" alt="" class="galeria__img">
       </a>
       </div>
       <div class="galeria__items">
-        <a data-fslightbox="gallery" href="./MULTIMEDIA/WEB/4.jpg"> 
-        <img loading="lazy" src="./MULTIMEDIA/WEB/4.jpg" alt="" class="galeria__img">
+        <a data-fslightbox="gallery" href="/assets/MULTIMEDIA/WEB/4.jpg"> 
+        <img loading="lazy" src="/assets/MULTIMEDIA/WEB/4.jpg" alt="" class="galeria__img">
       </a>
       </div>
       <div class="galeria__items">
-        <a data-fslightbox="gallery" href="./MULTIMEDIA/WEB/5.jpg">
-        <img loading="lazy" src="./MULTIMEDIA/WEB/5.jpg" alt="" class="galeria__img">
+        <a data-fslightbox="gallery" href="/assets/MULTIMEDIA/WEB/5.jpg">
+        <img loading="lazy" src="/assets/MULTIMEDIA/WEB/5.jpg" alt="" class="galeria__img">
       </a>
       </div>
   
@@ -330,15 +283,10 @@
     
   </script>
 
-  <footer>
-    <a href="mailto:morales8auv@gmail.com">morales8auv@gmail.com</a>
-    <a href="https://instagram.com/__mproduction?igshid=YmMyMTA2M2Y=" target="_blank"><img src="./icons/instagram (1).png" alt=""></a>
-    <p>©2022 por Mproduction.</p>
-  </footer>
 
 
   
-
+<?php incluirTemplate('footer');?>
 </main>
 
 

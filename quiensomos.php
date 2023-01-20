@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./CSS's/normalize.css">
-    <link rel="stylesheet" href="./CSS's/style2.css">
+    <link rel="stylesheet" href="./assets/CSS/normalize.css">
+    <link rel="stylesheet" href="./assets/CSS/style2.css">
     <title>Mproduction - Servicios</title>
 </head>
 <body>
@@ -18,7 +18,7 @@
             
         <div id="menu">
                
-                <img id="logo" src="./MULTIMEDIA/Logo mp (1).png">
+                <img id="logo" src="/assets/MULTIMEDIA/Logo mp (1).png">
                 
                 
                 <label  for="input" for="inputcruz" class="burger">
@@ -44,7 +44,7 @@
         <h1 class="serviciosh1"><span class="serviciosh1auto">¿</span> QUIÉN SOMOS<span class="serviciosh1auto" >? </span></h1>
 
         <section class="quiensomos">
-            <img src="./MULTIMEDIA/Foto quien somos/1671535149499.jpg" alt="">
+            <img src="/assets/MULTIMEDIA/Foto quien somos/1671535149499.jpg" alt="">
             <p> Mproduction es una Productora Audiovisual que nace para que los clientes puedan visualizar todo lo que imaginan. <br> Nos encontramos en Mengíbar (Jaén). <br>
             Realizamos todo tipo de trabajos audivisuales, Fotografía y video de eventos, videos promocionales, motiongraphics, diseños gráficos, diseño 3d, videos para RRSS <br> Disponemos de un equipo técnico de alta calidad, Cámara para vídeo Sony A7III, cámara para fotos NikonD3400, micrófono Rode NT1A.</p>
         </section>
