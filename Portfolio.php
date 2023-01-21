@@ -1,45 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/CSS/normalize.css">
-    <link rel="stylesheet" href="./assets/CSS/style2.css">
-    <title>Mproduction - Portfolio</title>
-</head>
-<body>
-<header>
-<div class="cabecera1">
-        <b id="slogan">
-         VISUALIZA LO QUE IMAGINAS
-        </b>
-</div>
-    
-<div id="menu">
-       
-        <img id="logo" src="/assets/MULTIMEDIA/Logo mp (1).png">
-        
-        
-        <label  for="input" class="burger">
-        <img class="hamburguesa" src="./icons/hamburguesa.svg" alt="">
-       
-         </label> 
-        
-        <input type="checkbox" id="input">
-            
-        
-          
-        <ul class="navegacion" >
-            <li><a href="./index.html">INICIO</a></li> 
-             <li><a href="./Portfolio.html" id="pagina">PORTFOLIO</a></li>
-             <li><a href="./quiensomos.html">QUIEN SOMOS</a></li>
-         
-             </ul>        
-</div>
-<hr>
-
-</header>
+<?php
+    require 'includes/funciones.php';
+    incluirTemplate('header');
+?>
 <main id="mainportfolio">
 <!-- H1 IMPORTANTE -->
          
@@ -77,11 +39,7 @@
     </div>
 </a>
 </section>
-<footer>
-    <a href="mailto:morales8auv@gmail.com">morales8auv@gmail.com</a>
-    <a href="https://instagram.com/__mproduction?igshid=YmMyMTA2M2Y=" target="_blank"><img src="./icons/instagram (1).png" alt=""></a>
-    <p>©2022 por Mproduction.</p>
-  </footer>
+<?php incluirTemplate('footer');?>
 
 </main>
 </body>

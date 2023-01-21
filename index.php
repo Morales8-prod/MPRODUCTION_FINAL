@@ -36,7 +36,7 @@
          
         </div>
         <div class="image">
-          <img src="/assets/MULTIMEDIA/LAVUELTA/LAVUELTA_-4.jpg">
+          <img src="<?= WEBROOT ?>assets/MULTIMEDIA/LAVUELTA/LAVUELTA_-4.jpg">
         </div>
       </div>
       <div class="slider">
@@ -45,7 +45,7 @@
          
         </div>
         <div class="image">
-          <img src="/assets/MULTIMEDIA/LAVUELTA/LAVUELTA_.jpg">
+          <img src="<?= WEBROOT ?>assets/MULTIMEDIA/LAVUELTA/LAVUELTA_.jpg">
         </div>
       </div>
       <div class="slider">
@@ -54,7 +54,7 @@
          
         </div>
         <div class="image">
-          <img src="/assets/MULTIMEDIA/LAVUELTA/LAVUELTA_-8.jpg">
+          <img src="<?= WEBROOT ?>assets/MULTIMEDIA/LAVUELTA/LAVUELTA_-8.jpg">
         </div>
       </div>
       <div class="slider">
@@ -63,7 +63,7 @@
          
         </div>
         <div class="image">
-          <img src="/assets/MULTIMEDIA/LAVUELTA/LAVUELTA_-10.jpg">
+          <img src="<?= WEBROOT ?>assets/MULTIMEDIA/LAVUELTA/LAVUELTA_-10.jpg">
         </div>
       </div>
     </div>
@@ -88,7 +88,7 @@
 
 <!-- VIDEO -->
 <section class="bloqueIII" >
-  <video src="/assets/MULTIMEDIA/videos/BATIDORA FINAL.mp4" controls poster="/assets/MULTIMEDIA/Batidora/_.jpg"></video>
+  <video src="<?= WEBROOT ?>assets/MULTIMEDIA/videos/BATIDORA FINAL.mp4" controls poster="<?= WEBROOT ?>assets/MULTIMEDIA/Batidora/_.jpg"></video>
 
   <p class="tipoII">Diseño 3D y video de presentación.</p>
   <p class="citaII">-CALDERERÍA LANDALUZ-</p>
@@ -98,48 +98,48 @@
 
   <Section class="galeria">
     <div class="galeria_container">
-      <div class="galeria__items"><a data-fslightbox="gallery" href="/assets/MULTIMEDIA/LAVUELTA/LAVUELTA_-10.jpg">
+      <div class="galeria__items"><a data-fslightbox="gallery" href="<?= WEBROOT ?>assets/MULTIMEDIA/LAVUELTA/LAVUELTA_-10.jpg">
 
-        <img loading="lazy" src="/assets/MULTIMEDIA/LAVUELTA/LAVUELTA10.jpg" alt="" class="galeria__imgI"> 
+        <img loading="lazy" src="<?= WEBROOT ?>assets/MULTIMEDIA/LAVUELTA/LAVUELTA10.jpg" alt="" class="galeria__imgI"> 
       </a>
     </div>
       <div class="galeria__items">
-        <a data-fslightbox="gallery" href="/assets/MULTIMEDIA/LAVUELTA/web_lavuelta/_-2.jpg">
-        <img loading="lazy" src="/assets/MULTIMEDIA/LAVUELTA/web_lavuelta/2.jpg" alt="" class="galeria__img">
+        <a data-fslightbox="gallery" href="<?= WEBROOT ?>assets/MULTIMEDIA/LAVUELTA/web_lavuelta/_-2.jpg">
+        <img loading="lazy" src="<?= WEBROOT ?>assets/MULTIMEDIA/LAVUELTA/web_lavuelta/2.jpg" alt="" class="galeria__img">
       </a>
     </div>
       <div class="galeria__items">
-        <a data-fslightbox="gallery" href="/assets/MULTIMEDIA/LAVUELTA/web_lavuelta/_-4.jpg">
-        <img loading="lazy" src="/assets/MULTIMEDIA/LAVUELTA/web_lavuelta/4.jpg" alt="" class="galeria__img">
+        <a data-fslightbox="gallery" href="<?= WEBROOT ?>assets/MULTIMEDIA/LAVUELTA/web_lavuelta/_-4.jpg">
+        <img loading="lazy" src="<?= WEBROOT ?>assets/MULTIMEDIA/LAVUELTA/web_lavuelta/4.jpg" alt="" class="galeria__img">
       </a>
       </div>
-      <div class="galeria__items"> <a data-fslightbox="gallery" href="/assets/MULTIMEDIA/WEB/1.jpg">
-        <img loading="lazy" src="/assets/MULTIMEDIA/WEB/1.jpg" alt="" class="galeria__imgIV">
+      <div class="galeria__items"> <a data-fslightbox="gallery" href="<?= WEBROOT ?>assets/MULTIMEDIA/WEB/1.jpg">
+        <img loading="lazy" src="<?= WEBROOT ?>assets/MULTIMEDIA/WEB/1.jpg" alt="" class="galeria__imgIV">
         </a>
       </div>
       <div class="galeria__items">
-         <a data-fslightbox="gallery" href="/assets/MULTIMEDIA/WEB/Mengibar FS_-37.jpg">
-        <img loading="lazy" src="/assets/MULTIMEDIA/WEB/Mengibar FS_-37.jpg" alt="" class="galeria__imgV">
+         <a data-fslightbox="gallery" href="<?= WEBROOT ?>assets/MULTIMEDIA/WEB/Mengibar FS_-37.jpg">
+        <img loading="lazy" src="<?= WEBROOT ?>assets/MULTIMEDIA/WEB/Mengibar FS_-37.jpg" alt="" class="galeria__imgV">
         </a>
       </div>
       <div class="galeria__items">
-         <a data-fslightbox="gallery" href="/assets/MULTIMEDIA/WEB/_-2.jpg">
-        <img loading="lazy" src="/assets/MULTIMEDIA/WEB/_-2.jpg" alt="" class="galeria__img">
+         <a data-fslightbox="gallery" href="<?= WEBROOT ?>assets/MULTIMEDIA/WEB/_-2.jpg">
+        <img loading="lazy" src="<?= WEBROOT ?>assets/MULTIMEDIA/WEB/_-2.jpg" alt="" class="galeria__img">
       </a>
       </div>
       <div class="galeria__items">
-        <a data-fslightbox="gallery" href="/assets/MULTIMEDIA/WEB/3.jpg">
-        <img loading="lazy" src="/assets/MULTIMEDIA/WEB/3.jpg" alt="" class="galeria__img">
+        <a data-fslightbox="gallery" href="<?= WEBROOT ?>assets/MULTIMEDIA/WEB/3.jpg">
+        <img loading="lazy" src="<?= WEBROOT ?>assets/MULTIMEDIA/WEB/3.jpg" alt="" class="galeria__img">
       </a>
       </div>
       <div class="galeria__items">
-        <a data-fslightbox="gallery" href="/assets/MULTIMEDIA/WEB/4.jpg"> 
-        <img loading="lazy" src="/assets/MULTIMEDIA/WEB/4.jpg" alt="" class="galeria__img">
+        <a data-fslightbox="gallery" href="<?= WEBROOT ?>assets/MULTIMEDIA/WEB/4.jpg"> 
+        <img loading="lazy" src="<?= WEBROOT ?>assets/MULTIMEDIA/WEB/4.jpg" alt="" class="galeria__img">
       </a>
       </div>
       <div class="galeria__items">
-        <a data-fslightbox="gallery" href="/assets/MULTIMEDIA/WEB/5.jpg">
-        <img loading="lazy" src="/assets/MULTIMEDIA/WEB/5.jpg" alt="" class="galeria__img">
+        <a data-fslightbox="gallery" href="<?= WEBROOT ?>assets/MULTIMEDIA/WEB/5.jpg">
+        <img loading="lazy" src="<?= WEBROOT ?>assets/MULTIMEDIA/WEB/5.jpg" alt="" class="galeria__img">
       </a>
       </div>
   

@@ -23,11 +23,11 @@
     
     <div id="menu">
        
-        <img id="logo" src="/assets/MULTIMEDIA/Logo mp (1).png">
+        <img id="logo" src="<?= WEBROOT ?>assets/MULTIMEDIA/Logo mp (1).png">
         
         
         <label  for="input" class="burger">
-        <img class="hamburguesa" src="./icons/hamburguesa.svg" alt="">
+        <img class="hamburguesa" src="<?= WEBROOT ?>assets/icons/hamburguesa.svg" alt="">
        
          </label> 
         
@@ -36,9 +36,9 @@
         
           
         <ul class="navegacion" >
-            <li><a href="./index.html" id="pagina">INICIO</a></li> 
-             <li><a href="./Portfolio.html">PORTFOLIO</a></li>
-             <li><a href="./quiensomos.html">QUIEN SOMOS</a></li>
+            <li><a href="index.php" class="<?php active('index.php');?>">INICIO</a></li> 
+             <li><a href="Portfolio.php" class="<?php active('Portfolio.php');?>">PORTFOLIO</a></li>
+             <li><a href="quiensomos.php" class="<?php active('quiensomos.php');?>">QUIEN SOMOS</a></li>
          
              </ul>
         
