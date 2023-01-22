@@ -829,7 +829,7 @@ footer p{
   border: #000 1px solid;
   border-radius: 50pt;
   overflow: hidden;
-  background-image: url(../../assets/MULTIMEDIA/LAVUELTA/LAVUELTA_-2.jpg);
+  background-image: url(../../assets/MULTIMEDIA/LAVUELTA/web_lavuelta/2.jpg);
   background-position-y: center;
   background-size: 160%;
 }
@@ -979,7 +979,7 @@ margin-right: 10%;
 margin-left: 8%;
 text-align: justify;
 font-size: 1.8em;
-
+padding-bottom: 10%;
 }
 
 
@@ -999,7 +999,7 @@ header {
   box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.30);
 }
 
-.active {
+a.active {
   color: #f3931c;
 }
 

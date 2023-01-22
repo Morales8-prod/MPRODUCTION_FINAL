@@ -144,7 +144,7 @@
       </div>
   
     </div>
-    <script src="./js/fslightbox.js"></script>    
+    <script src="<?= WEBROOT ?>assets/js/fslightbox.js"></script>    
   </Section>
 
   <!-- FORMULARIO -->
