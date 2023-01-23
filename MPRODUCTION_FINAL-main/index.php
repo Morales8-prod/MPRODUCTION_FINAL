@@ -87,13 +87,7 @@
 </section>
 
 <!-- VIDEO -->
-<section class="bloqueIII" >
-  <video src="<?= WEBROOT ?>assets/MULTIMEDIA/videos/BATIDORA FINAL.mp4" controls poster="<?= WEBROOT ?>assets/MULTIMEDIA/Batidora/_.jpg"></video>
-
-  <p class="tipoII">Diseño 3D y video de presentación.</p>
-  <p class="citaII">-CALDERERÍA LANDALUZ-</p>
-</section>
-
+<?php include 'includes/templates/video.php'; ?>
 <!-- GALERÍA -->
 
   <Section class="galeria">
@@ -118,8 +112,8 @@
         </a>
       </div>
       <div class="galeria__items">
-         <a data-fslightbox="gallery" href="<?= WEBROOT ?>assets/MULTIMEDIA/WEB/Mengibar FS_-37.jpg">
-        <img loading="lazy" src="<?= WEBROOT ?>assets/MULTIMEDIA/WEB/Mengibar FS_-37.jpg" alt="" class="galeria__imgV">
+         <a data-fslightbox="gallery" href="<?= WEBROOT ?>assets/MULTIMEDIA/WEB/MengibarFS37.jpg">
+        <img loading="lazy" src="<?= WEBROOT ?>assets/MULTIMEDIA/WEB/MengibarFS37.jpg" alt="" class="galeria__imgV">
         </a>
       </div>
       <div class="galeria__items">
@@ -149,11 +143,12 @@
 
   <!-- FORMULARIO -->
   <section class="formulario">
-    <form id="formulario" action="" method="" >
+    <form id="formulario" action="" method="POST" >
     <p class="parrafoformulario">Ponte en contacto</p>
     <div class="divformulario">
     <label class="labelform" for="input">Nombre*</label>
-    <input class="inputform" id="usuario" type="text" name="Nombre" value placeholder = "Ingresa tu nombre" maxlength="20">
+    <input class="inputform" id="usuario" type="text" name="Nombre" value       
+     placeholder = "Ingresa tu nombre" maxlength="20">
     <p></p>   
   </div>
   <div class="divformulario">
@@ -177,7 +172,7 @@
     <p></p>   
   </div>
 
-  <button aria-disabled="false"> <span>Enviar</span></button>
+  <input type="submit" name="ok" value= "Enviar"> </input>
   </form>
   </section>
 
@@ -251,7 +246,7 @@
          //validando campo textarea
          if(!textareaValor){
             validaFalla(textarea, 'Campo obligatorio')            
-        } else if (textareaValor.length < 20) {             
+        } else if (textareaValor.length < 40) {             
             validaFalla(textarea, 'Debe tener 40 caracteres cómo mínimo.')
         } else if (textareaValor.length > 250) {             
             validaFalla(textarea, 'No puede tener más de 250 caracteres')

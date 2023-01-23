@@ -740,16 +740,17 @@ border:0.08em solid #1C1E26;
   color: #000;
 }
 
-button {
+/* input {
+  text-decoration: none;
   background-color: #000;
   width: 60%;
   margin-top: 10%;
   height: 2.5em;
   border: solid;
   cursor: pointer;
-}
+} */
 
-button span {
+input span {
   font-family: 'Raleway', sans-serif;
   color: #ffffff;
 }

@@ -155,7 +155,7 @@
     * 2. Eliminar el margen en Firefox y Safari.
     */
   
-  button,
+  input,
   input,
   optgroup,
   select,
@@ -171,7 +171,7 @@
     * 1. Mostrar el desbordamiento en Edge.
     */
   
-  button,
+  input,
   input { /* 1 */
     overflow: visible;
   }
@@ -181,7 +181,7 @@
     * 1. Eliminar la herencia de transformación de texto en Firefox.
     */
   
-  button,
+  input,
   select { /* 1 */
     text-transform: none;
   }
@@ -190,19 +190,19 @@
     * Corrección de la imposibilidad de aplicar estilo a los tipos en los que se puede hacer clic en iOS y Safari.
     */
   
-  button,
-  [type="button"],
+  input,
+  [type="input"],
   [type="reset"],
   [type="submit"] {
-    -webkit-appearance: button;
+    -webkit-appearance: input;
   }
   
 /**
     * Eliminar el borde interior y el relleno en Firefox.
     */
   
-  button::-moz-focus-inner,
-  [type="button"]::-moz-focus-inner,
+  input::-moz-focus-inner,
+  [type="input"]::-moz-focus-inner,
   [type="reset"]::-moz-focus-inner,
   [type="submit"]::-moz-focus-inner {
     border-style: none;
@@ -213,11 +213,11 @@
     * Restaurar los estilos de enfoque no establecidos por la regla anterior.
     */
   
-  button:-moz-focusring,
-  [type="button"]:-moz-focusring,
+  input:-moz-focusring,
+  [type="input"]:-moz-focusring,
   [type="reset"]:-moz-focusring,
   [type="submit"]:-moz-focusring {
-    outline: 1px dotted ButtonText;
+    outline: 1px dotted inputText;
   }
   
  /**
@@ -275,8 +275,8 @@
    * Corregir el estilo del cursor de los botones de incremento y disminución en Chrome.
    */
   
-  [type="number"]::-webkit-inner-spin-button,
-  [type="number"]::-webkit-outer-spin-button {
+  [type="number"]::-webkit-inner-spin-input,
+  [type="number"]::-webkit-outer-spin-input {
     height: auto;
   }
   
@@ -303,8 +303,8 @@
     * 2. Cambie las propiedades de la fuente a `heredar` en Safari.
    */
   
-  ::-webkit-file-upload-button {
-    -webkit-appearance: button; /* 1 */
+  ::-webkit-file-upload-input {
+    -webkit-appearance: input; /* 1 */
     font: inherit; /* 2 */
   }
   
