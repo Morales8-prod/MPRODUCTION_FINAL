@@ -1,17 +1,17 @@
 <?php
 if (isset($_POST['ok'])) {
-  $nombre = trim($_POST['Nombre']);
+  $Nombre = trim($_POST['Nombre']);
   $email = trim($_POST['email']);
   $telefono = trim($_POST['telefono']);
-  $asunto = trim($_POST['Asunto']);
+  $Asunto = trim($_POST['Asunto']);
   $mensaje = trim($_POST['mensaje']);
   $alerta='';
-  if ($nombre == '')
+  if ($Nombre == '')
     { $alerta .= "El nombre es obligatorio.\n"; }
-  if (strlen($nombre) < 10)
+  if (strlen($Nombre) < 10)
     { $alerta .= "El nombre debe tener al menos 10 caracteres.\n"; }
 
-  if (preg_match('/^([0-9])*$/', $nombre)){
+  if (preg_match('/^([0-9])*$/', $Nombre)){
     $alerta .= "Tu nombre no puede ser un digito numérico.\n";
   }
   
@@ -23,13 +23,13 @@ if (isset($_POST['ok'])) {
 
   if ($telefono == '')
   { $alerta .= "El correo es obligatorio.\n"; }
-if (preg_match('^(\\+34|0034|34)?[6789]\\d{8}$', $telefono))
+if (preg_match('/^(\\+34|0034|34)?[6789]\\d{8}$/', $telefono))
   { $alerta .= "Escribe bien tu teléfono Ej: +34666555444\n"; }
 
 
-  if ($asunto == '')
+  if ($Asunto == '')
   { $alerta .= "El asunto es obligatorio.\n"; }
-  if (strlen($asunto) < 10)
+  if (strlen($Asunto) < 10)
   { $alerta .= "El asunto debe tener al menos 10 caracteres.
   \n"; }
   if ($mensaje == '')
@@ -42,5 +42,5 @@ if (preg_match('^(\\+34|0034|34)?[6789]\\d{8}$', $telefono))
   \n"; }
 } else {
   $nombre='';$alerta='';
-}
+} 
 ?>

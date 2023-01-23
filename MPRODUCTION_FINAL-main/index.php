@@ -142,8 +142,9 @@
   </Section>
 
   <!-- FORMULARIO -->
+  <?php include 'includes/form.php'; ?>
   <section class="formulario">
-    <form id="formulario" action="" method="POST" >
+    <form id="formulario" action="" method="post" >
     <p class="parrafoformulario">Ponte en contacto</p>
     <div class="divformulario">
     <label class="labelform" for="input">Nombre*</label>
@@ -172,7 +173,7 @@
     <p></p>   
   </div>
 
-  <input type="submit" name="ok" value= "Enviar"> </input>
+  <input class = "boton" type="submit" name="ok"><span id="enviar">Enviar</span></input>
   </form>
   </section>
 
